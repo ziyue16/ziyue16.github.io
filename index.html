@@ -139,22 +139,20 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.button {
-  background-color: #007BFF; /* Bootstrap blue */
+.flat-button {
+  background: #2ecc71;
   border: none;
   color: white;
   padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  border-radius: 6px;
-  transition-duration: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
-.button:hover {
-  background-color: #0056b3;
+.flat-button:hover {
+  background: #27ae60;
 }
 </style>
 
@@ -275,7 +273,7 @@ input:checked + .slider:before {
                            <ul>
 			   <li><p><b>Fitting mixed logit random regret minimization models using maximum simulated likelihood</b><br>
 					   with Álvaro A. Gutiérrez-Vargas, Martina Vandebroek<br>
-					   <i>the Stata Journal 24 (2)</i> <a href="https://journals.sagepub.com/doi/full/10.1177/1536867X241257802"><button type="button">Published Version (Open Access)</button></a>
+					   <i>the Stata Journal 24 (2)</i> <a href="https://journals.sagepub.com/doi/full/10.1177/1536867X241257802"><button type="flat-button">Published Version (Open Access)</button></a>
 					   <details><summary><u>Click for Abstract</u></summary>
 						   This article describes the mixrandregret command, which extends the randregret command introduced in Gutiérrez-Vargas et al. 
 						   (2021, The Stata Journal 21: 626-658) incorporating random coefficients for Random Regret Minimization models. The newly 
